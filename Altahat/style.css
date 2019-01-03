@@ -180,7 +180,7 @@ nav {
   position: fixed;
   background: #fff;
   z-index: 9;
-  display: none;
+  display: block;
   width: 100%;
   padding: 20px;
   top: 0;
@@ -385,7 +385,6 @@ nav ul li.current a {
 
 /* About
 ==================================================*/
-
 .about-image img {
   min-width: 100%;
 }
@@ -703,7 +702,9 @@ nav ul li.current a {
 
 /* Blog
 ==================================================*/
-
+.blog-section {
+  background:#f6f6f6;
+}
 .blog-item {
   display: block;
   margin-bottom: 30px;
