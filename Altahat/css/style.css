@@ -64,6 +64,19 @@ p {
   line-height: 27px;
   font-family: 'Roboto', sans-serif;
 }
+p2 {
+  font-size: 14px;
+  color: #888;
+  line-height: 27px;
+  font-family: 'Roboto', sans-serif;
+  text-align: right;
+}
+p3 {
+  font-size: 14px;
+  color: #888;
+  line-height: 27px;
+  font-family: 'Roboto', sans-serif;
+}
 ul,
 ol {
   margin: 0;
@@ -167,7 +180,7 @@ nav {
   position: fixed;
   background: #fff;
   z-index: 9;
-  display: none;
+  display: block;
   width: 100%;
   padding: 20px;
   top: 0;
@@ -278,7 +291,7 @@ nav ul li.current a {
   left: 0;
   top: 0;
   background: #000;
-  opacity: 0.85;
+  opacity: 0.05;
   z-index: 1;
 }
 .intro-content {
@@ -428,7 +441,7 @@ nav ul li.current a {
   text-align: center;
 }
 .service-item h4 {
-  font-weight: 600;
+  font-weight: 700;
 }
 .service-item .icon {
   width: 50px;
@@ -440,11 +453,12 @@ nav ul li.current a {
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 .service-item .icon i {
   display: table-cell;
   vertical-align: middle;
   text-align: center;
-  font-size: 28px;
+  font-size: 32px;
 }
 .service-item .icon:after,
 .service-item .icon:before,
