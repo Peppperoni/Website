@@ -1,12 +1,12 @@
 
 /**
-  Guru - Portfolio Template 
+  Guru - Portfolio Template
   Author : BootEx
   Copyright 2017
 
 /* Table of Content
 ==================================================
-  
+
   - General -
   - Preloader -
   - Header -
@@ -274,7 +274,7 @@ nav ul li.current a {
 ==================================================*/
 
 .intro-section {
-  background-image: url(../images/bg.gif);
+  /* background-image: url(../images/bg.gif); */
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1005,7 +1005,7 @@ footer p {
 /* Responsive
 ==================================================*/
 
-                               
+
 /* Tablet desktop :768px. */
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
